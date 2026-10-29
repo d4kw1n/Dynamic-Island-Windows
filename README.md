@@ -18,7 +18,7 @@ detection and calendar downloads.
 Download the latest Windows installer from
 [Releases](https://github.com/d4kw1n/Dynamic-Island-Windows/releases):
 
-- `Dynamic Island_0.1.0_x64-setup.exe` — Windows 10 1809+ / Windows 11.
+- `Dynamic.Island_0.1.0_x64-setup.exe` — Windows 10 1809+ / Windows 11.
 
 The build is not code-signed, so SmartScreen may show "Windows protected your
 PC"; choose **More info → Run anyway**. The WebView2 Runtime is required
