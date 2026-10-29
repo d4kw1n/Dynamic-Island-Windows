@@ -1,0 +1,18 @@
+node_modules
+dist
+src-tauri/target
+src-tauri/gen
+icon-source.png
+*.local
+.DS_Store
+
+# Development artefacts
+shots/*
+!shots/cal_cluster_preview2.png
+!shots/cal_preview2.png
+*.log
+.env
+.env.*
+.vscode/
+Thumbs.db
+desktop.ini

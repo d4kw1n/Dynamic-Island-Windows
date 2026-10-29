@@ -1,0 +1,36 @@
+{
+  "name": "dynamic-island-windows",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Dynamic Island-style always-on-top overlay for Windows with media, timer, tasks, notes, calendar and live AI agent sessions.",
+  "license": "MIT",
+  "author": "d4kw1n",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d4kw1n/Dynamic-Island-Windows.git"
+  },
+  "homepage": "https://github.com/d4kw1n/Dynamic-Island-Windows#readme",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "icon": "node scripts/make-icon.mjs && tauri icon icon-source.png"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.12.4",
+    "lucide-react": "^1.63.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.12.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.5"
+  }
+}
